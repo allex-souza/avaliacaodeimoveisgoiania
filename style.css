@@ -392,12 +392,13 @@ footer h4:hover{
     .alin-header-itens {
         position: relative;
         display: flex;
-        justify-content: center;
+        justify-content:none;
         align-items: center;
         flex-wrap: wrap;
     }
     .img-mauro{
         width: 60%;
+        margin: 0 auto;
     }
     .aling-cont-header-logo img{
         width: 80px;
