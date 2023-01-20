@@ -473,6 +473,12 @@ button{
 .cxButwh{/* - Whatsapp flutuante! - */
     width: 13% !important;
 }
+.cx-lista img{
+    width: 40px;
+}
+.cx-lista h3{
+    font-size: .955rem;
+}
 }
 
 
