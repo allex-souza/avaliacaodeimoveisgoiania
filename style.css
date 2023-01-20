@@ -42,10 +42,10 @@ button:hover{
     padding: 60px 0 95px 0;
 }
 .aling-cont-header-logo img{
-    width: 130px;
+    width: 100px;
     position: relative;
     display: block;
-    left: -16px;
+    margin: 0 0 10px 0;
 }
 .aling-cont-header h1{
     font-family: title-font;
@@ -394,10 +394,9 @@ footer h4:hover{
         width: 60%;
     }
     .aling-cont-header-logo img{
-    width: 100px;
-    position: relative;
-    display: block;
-    left: -10px;
+        width: 80px;
+        position: relative;
+        display: block;
 }
 .aling-cont-header h1{
     font-size: 1.9rem;
