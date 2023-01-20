@@ -416,6 +416,17 @@ footer h4:hover{
     margin: 18px 0;
     font-weight: 800;
 }
+button{
+    padding: 8px 25px;
+    border: none;
+    border-radius:100px;
+    font-size: 1rem;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 18px 0;
+    font-weight: 800;
+}
 .header-set{
     background-color: rgb(148, 118, 118);
     background-image: url(imgs/goianiacapitaldegoias.webp);
@@ -427,6 +438,21 @@ footer h4:hover{
     position: relative;
 }
 .title-jobs h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+.title-articles{
+    font-size: 1.3rem;
+}
+.aling-article-cont p{
+    font-size: 1rem;
+}
+.horiz-aling h2 ,h3{
+    font-size:1.3rem ;
+}
+.butSobreMim{
+    margin: 40px auto 0 auto;
+}
+.body-cont {
+    padding: 30px 0;
 }
 }
