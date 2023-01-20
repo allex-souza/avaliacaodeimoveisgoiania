@@ -343,7 +343,7 @@ footer h4:hover{
         width: 90%;
     }
     .aling-article-cont img{
-        margin: 0;
+        margin: 20px 0;
         width: 100%;
     }
     .largura-total{
@@ -456,9 +456,18 @@ button{
     font-size:1.3rem ;
 }
 .butSobreMim{
-    margin: 40px auto 0 auto;
+    margin: 10px auto 20px auto;
 }
 .body-cont {
     padding: 30px 0;
+}
+.listarticle{
+    font-size: .95555555rem;
+}
+.sobreimgmy{
+    width: 60% !important;
+    margin: 0 auto !important;
+    display: block !important;
+    position: relative !important;
 }
 }
