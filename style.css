@@ -42,7 +42,7 @@ button:hover{
     padding: 60px 0 95px 0;
 }
 .aling-cont-header-logo{
-    width: 910px;
+    width: 100%;
     position: relative;
     display: block;
     margin: 0 auto;
