@@ -131,7 +131,7 @@ article{
     margin-left: 10px;
 }
 .aling-article-cont p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 .backgd-color-contraste{
@@ -194,12 +194,41 @@ article{
     width: 100%;
     height: 100%;
 }
-.cxsobre{
-
-}
 .cxsobre img{
     width: 280px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.cx-alin-feedback{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;   
+}
+.card-feedback{
+position: relative;
+display: block;
+width: 273px;
+}
+.card-feedback img{
+    width: 38px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.card-feedback p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .07rem;
+    margin: 40px auto 28px auto;
+}
+.card-feedback h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFA800;
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
 }
