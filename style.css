@@ -41,6 +41,12 @@ button:hover{
     margin: 0 auto;
     padding: 60px 0 95px 0;
 }
+.aling-cont-header-logo{
+    width: 910px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
 .aling-cont-header-logo img{
     width: 100px;
     position: relative;
