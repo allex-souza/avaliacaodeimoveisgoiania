@@ -161,12 +161,12 @@ article{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 .backgd-color-contraste{
-    background-color: #e1e1e1;
+    background-color: #ececec;
 }
 .largura-total{
     background-image: url(imgs/capa-section-lista.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
@@ -470,4 +470,72 @@ button{
     display: block !important;
     position: relative !important;
 }
+}
+
+
+
+
+.cxButwh{/* - Whatsapp flutuante! - */
+    position: fixed;
+    display: block;
+    z-index: 5;
+    width: 5.5%;
+    border-radius: 20%;
+    bottom: 20px;
+    right: 20px;
+    animation: moveInBottom .8s ease-out;
+    cursor: pointer;
+}
+@keyframes moveInBottom{
+    0% {
+            opacity: 0;
+            transform: translateY(30px);
+    }
+    100% {
+            opacity: 1;
+            transform: translateY(0px);
+    }
+}
+.cxButwh::after{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: #000000a2;
+    width: 100%;
+    border-radius: 20%;
+    z-index: -1;
+    height: 100%;
+    top:0;
+    animation:mymove  .8s infinite;
+}
+.cxButwh::before{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 20%;
+    z-index: -1;
+    height: 100%;
+    top:0;
+    animation: mymove .8s infinite;
+}
+@keyframes mymove{
+    0%{
+        opacity:1;
+        scale: 0;
+    }
+    99%{
+        opacity:0;
+        scale: 1.5;
+    }
+    100%{
+        opacity:0;
+        scale: 0;
+    }
+}
+#flut-wp{ /* - Whatsapp flutuante! - */
+    position: relative;
+    display: block;
+    width: 100%;
 }
