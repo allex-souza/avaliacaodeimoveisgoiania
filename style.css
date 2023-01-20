@@ -35,11 +35,11 @@ width: 100%;
 height: 100%;
 }
 .width-max{
-    width: 910px;
+    width: 1000px;
     position: relative;
     display: block;
     margin: 0 auto;
-    padding: 45px 0 90px 0;
+    padding: 60px 0 95px 0;
 }
 .aling-cont-header-logo img{
     width: 130px;
@@ -114,8 +114,10 @@ button{
 background: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
     font-family: title-font;
     text-align: center;
-    font-size: 2rem;
+
     padding: 20px 0;
+}.title-jobs h2{
+    font-size: 2.1rem;
 }
 .body-cont{
     width: 100%;
@@ -139,6 +141,11 @@ article{
     width: 360px;
     margin-left: 10px;
     transition: scale .3s;
+    -webkit-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
+border: 2px solid #FFF;
+border-radius: 8px;
 }
 .aling-article-cont img:hover{
     scale: 1.05;
@@ -158,7 +165,6 @@ article{
     width: 100%;
     position: relative;
     display: block;
-    background-color: black;
     color: #EDF5FB;
     padding: 60px 0;
 }
@@ -203,7 +209,7 @@ article{
     position: absolute;
     top: 0;
     display: block;
-    background: rgba(0, 0, 0, 0.941) 0%;
+    background: rgba(0, 0, 0, 0.819) 0%;
     width: 100%;
     height: 100%;
 }
@@ -213,6 +219,7 @@ article{
     font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     transition: scale .2s;
+    box-shadow: none !important;
 }
 .cxsobre img:hover{
     scale: 1.1;
@@ -246,8 +253,9 @@ width: 272px;
     color: #FFA800;
     position: relative;
     display: block;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+    text-align: center;
 }
 footer{
     background-color: black;
@@ -295,10 +303,16 @@ footer h4:hover{
     position: absolute;
     top: 0;
     display: block;
-    animation: rotatearomauro 10s infinite;
+    animation: rotatearomauro 20s infinite;
 }
 @keyframes rotatearomauro {
     0%{
-        rotate: 15deg;
+        rotate: -10deg;
+    }
+    50%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: -10deg;
     }
 }
