@@ -1,0 +1,205 @@
+@charset "utf-8";
+@font-face {
+    font-family: title-font;
+    src: url(fonts/nominee-black.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-set{
+    background-color: rgb(148, 118, 118);
+    background-image: url(imgs/goianiacapitaldegoias.webp);
+    background-position-y: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.blackcob{
+    
+    position: absolute;
+    top: 0;
+    display: block;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35898109243697474) 0%, rgba(0,0,0,1) 100%);
+width: 100%;
+height: 100%;
+}
+.width-max{
+    width: 910px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 45px 0 90px 0;
+}
+.aling-cont-header-logo img{
+    width: 130px;
+    position: relative;
+    display: block;
+    left: -16px;
+}
+.aling-cont-header h1{
+    font-family: title-font;
+    font-size: 2.5rem;
+    color: white;
+    display: block;
+}
+.aling-cont-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2555rem;
+    color: white;
+    letter-spacing: 0.01rem;
+    margin-top: 8px;
+    font-weight: 100;
+    display: block;
+}
+.aling-cont-header button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDF5FB;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.25555em;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 38px 0;
+    font-weight: 800;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFA800;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.25555em;
+    color: black;
+    font-weight: 100;
+    display: block;
+    margin: 38px 0 0 0;
+    font-weight: 800;
+}
+.bold-yellow{
+    font-weight: 700;
+    color: #FFA800;
+}
+.alin-header-itens{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-mauro{
+    position: relative;
+    width: 32%;
+}
+.img-mauro img{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.title-jobs{
+    background: rgb(242,101,0);
+background: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
+    font-family: title-font;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.body-cont{
+    width: 100%;
+    padding: 60px 0;
+}
+.title-articles{
+    font-family: title-font;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+article{
+    color: rgb(25, 25, 25);
+    width: 910px;
+    margin: 0 auto;
+}
+.aling-article-cont{
+    position: relative;
+    display: flex;
+}
+.aling-article-cont img{
+    width: 360px;
+    margin-left: 10px;
+}
+.aling-article-cont p{
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.backgd-color-contraste{
+    background-color: #e1e1e1;
+}
+.largura-total{
+    background-image: url(imgs/capa-section-lista.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: black;
+    color: #EDF5FB;
+    padding: 60px 0;
+}
+.horiz-aling{
+    width: 910px;
+    margin: 0 auto;
+    z-index: 2 !important;
+}
+.horiz-aling h2{
+    font-family: title-font;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+}
+.cx-lista{
+    border: 3px solid white;
+    margin: 40px 0 0 0;
+    position: relative;
+    border-radius: 10px;
+    padding: 50px;
+}
+.cx-lista ol{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.cx-lista li{
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cx-lista img{
+    width: 60px;
+    position: relative;
+}
+
+.blackcobbbb{
+    position: absolute;
+    top: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.941) 0%;
+    width: 100%;
+    height: 100%;
+}
+.cxsobre{
+
+}
+.cxsobre img{
+    width: 280px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
