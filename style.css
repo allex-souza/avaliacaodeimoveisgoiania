@@ -7,6 +7,13 @@
     margin: 0;
     padding: 0;
 }
+button{
+    cursor: pointer !important;
+    transition: scale .2s;
+}
+button:hover{
+    scale: 1.03;
+}
 .header-set{
     background-color: rgb(148, 118, 118);
     background-image: url(imgs/goianiacapitaldegoias.webp);
@@ -99,7 +106,9 @@ button{
     width: 100%;
     position: relative;
     display: block;
+    z-index: 1;
 }
+
 .title-jobs{
     background: rgb(242,101,0);
 background: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
@@ -129,6 +138,10 @@ article{
 .aling-article-cont img{
     width: 360px;
     margin-left: 10px;
+    transition: scale .3s;
+}
+.aling-article-cont img:hover{
+    scale: 1.05;
 }
 .aling-article-cont p{
     font-size: 1.4rem;
@@ -199,6 +212,10 @@ article{
     margin-left: 20px;
     font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    transition: scale .2s;
+}
+.cxsobre img:hover{
+    scale: 1.1;
 }
 .cx-alin-feedback{
     position: relative;
@@ -209,7 +226,7 @@ article{
 .card-feedback{
 position: relative;
 display: block;
-width: 273px;
+width: 272px;
 }
 .card-feedback img{
     width: 38px;
@@ -240,18 +257,48 @@ footer{
 footer h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 100;
     margin-bottom: 5px;
 }
 footer h4{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: .8rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+footer h4:hover{
+    color: #FFA800;
 }
 .but-feedback{
     position: relative;
     display: block;
-    margin: 60px auto 0 auto;
+    margin: 50px auto 0 auto;
 
+}
+.listarticle{
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+}
+.styiconlist{
+    color: #FFA800;
+    font-weight:bolder;
+    font-size: 1.8rem;
+}
+.img-mauro::after{
+    content: '';
+    background-image: url(imgs/aromaurocabecalho.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    display: block;
+    animation: rotatearomauro 10s infinite;
+}
+@keyframes rotatearomauro {
+    0%{
+        rotate: 15deg;
+    }
 }
