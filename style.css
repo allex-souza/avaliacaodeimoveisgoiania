@@ -83,6 +83,9 @@ button:hover{
     margin: 38px 0;
     font-weight: 800;
 }
+.aling-cont-header{
+    width: 55%;
+}
 button{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFA800;
@@ -355,7 +358,9 @@ footer h4:hover{
 /* ================================================ */
 
 @media (max-width: 760px ) {
-
+    .aling-cont-header{
+        width: 100%;
+    }
     .header-set{
         background-color: rgb(148, 118, 118);
         background-image: url(imgs/goianiacapitaldegoias.webp);
@@ -599,6 +604,9 @@ button{
 
 
 @media (min-width: 760px ) and (max-width: 910px ){
+    .aling-cont-header{
+        width: 100%;
+    }
     .width-max{
         width: 80%;
         position: relative;
