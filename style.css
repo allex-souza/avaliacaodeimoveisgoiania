@@ -328,6 +328,18 @@ footer h4:hover{
 /* ================================================ */
 
 @media (max-width: 760px ) {
+
+    .header-set{
+        background-color: rgb(148, 118, 118);
+        background-image: url(imgs/goianiacapitaldegoias.webp);
+        background-position:35% ;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    
     .width-max{
         width: 90%;
         position: relative;
