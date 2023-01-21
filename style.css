@@ -13,6 +13,7 @@ button{
 }
 button:hover{
     scale: 1.03;
+    background-color: #ffbe3c;
 }
 .header-set{
     background-color: rgb(148, 118, 118);
@@ -52,6 +53,7 @@ button:hover{
     position: relative;
     display: block;
     margin: 0 0 10px 0;
+    animation: xxxxxxxx .8s ease-out;
 }
 .aling-cont-header h1{
     font-family: title-font;
@@ -107,6 +109,18 @@ button{
 .img-mauro{
     position: relative;
     width: 32%;
+    animation: animmauro2 1s ease-out;
+}
+@keyframes animmauro2 {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .img-mauro img{
     width: 100%;
@@ -322,7 +336,20 @@ footer h4:hover{
         rotate: -10deg;
     }
 }
-
+.aling-cont-header{
+    
+    animation: xxxxxxxx .8s ease-out;
+}
+@keyframes xxxxxxxx{
+    0% {
+            opacity: 0;
+            transform: translateX(-30px);
+    }
+    100% {
+            opacity: 1;
+            transform: translateX(0px);
+    }
+}
 /* ================================================ */
 /* ================================================ */
 /* ================================================ */
