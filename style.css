@@ -1,52 +1,52 @@
 @charset "utf-8";
-@font-face {
-    font-family: title-font;
+@Tipo de letra {
+    font-family: título-fonte;
     src: url(fonts/nominee-black.otf);
 }
 *{
-    margin: 0;
-    padding: 0;
+    margem: 0;
+    preenchimento: 0;
 }
-button{
-    cursor: pointer !important;
-    transition: scale .2s;
+botão{
+    cursor: ponteiro !importante;
+    transição: escala .2s;
 }
-button:hover{
-    scale: 1.03;
-    background-color: #ffbe3c;
+botão: passe o mouse{
+    escala: 1,03;
+    cor de fundo: #ffbe3c;
 }
 .header-set{
-    background-color: rgb(148, 118, 118);
+    cor de fundo: rgb(148, 118, 118);
     background-image: url(imgs/goianiacapitaldegoias.webp);
-    background-position-y: 80%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    position: relative;
+    posição de fundo-y: 80%;
+    tamanho do plano de fundo: 100%;
+    repetição de fundo: sem repetição;
+    exibição: bloco;
+    largura: 100%;
+    posição: relativa;
 }
 .blackcob{
     
-    position: absolute;
-    top: 0;
-    display: block;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35898109243697474) 0%, rgba(0,0,0,1) 100%);
-    width: 100%;
-    height: 100%;
+    posição: absoluta;
+    superior: 0;
+    exibição: bloco;
+    plano de fundo: rgb(0,0,0);
+    plano de fundo: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.35898109243697474) 0%, rgba(0,0,0,1) 100%);
+    largura: 100%;
+    altura: 100%;
 }
 .width-max{
-    width: 910px;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    padding: 60px 0 95px 0;
+    largura: 910px;
+    posição: relativa;
+    exibição: bloco;
+    margem: 0 automático;
+    preenchimento: 60px 0 95px 0;
 }
 .aling-cont-header-logo{
-    width: 100%;
-    position: relative;
-    display: block;
-    margin: 0 auto;
+    largura: 100%;
+    posição: relativa;
+    exibição: bloco;
+    margem: 0 automático;
 }
 .aling-cont-header-logo img{
     width: 100px;
@@ -57,113 +57,118 @@ button:hover{
 }
 .aling-cont-header h1{
     font-family: title-font;
-    font-size: 2.5rem;
-    color: white;
-    display: block;
+    font-display: auto;
+    font-display: block;
+    exibição de fonte: swap;
+    exibição de fonte: fallback;
+    exibição de fonte: opcional;
+    tamanho da fonte: 2,5 rem;
+    cor branca;
+    exibição: bloco;
 }
 .aling-cont-header h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2555rem;
-    color: white;
-    letter-spacing: 0.01rem;
-    margin-top: 8px;
-    font-weight: 100;
-    display: block;
+    família de fontes: Arial, Helvetica, sans-serif;
+    tamanho da fonte: 1,2555rem;
+    cor branca;
+    espaçamento entre letras: 0,01rem;
+    margem superior: 8px;
+    peso da fonte: 100;
+    exibição: bloco;
 }
 .aling-cont-header button{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #EDF5FB;
-    padding: 8px 35px;
-    border: none;
-    border-radius: 100px;
-    font-size: 1.25555em;
-    color: black;
-    font-weight: 100;
-    display: block;
-    margin: 38px 0;
-    font-weight: 800;
+    família de fontes: Arial, Helvetica, sans-serif;
+    cor de fundo: #EDF5FB;
+    preenchimento: 8px 35px;
+    borda: nenhum;
+    raio da borda: 100px;
+    tamanho da fonte: 1,25555em;
+    cor preta;
+    peso da fonte: 100;
+    exibição: bloco;
+    margem: 38px 0;
+    peso da fonte: 800;
 }
 .aling-cont-header{
-    width: 55%;
+    largura: 55%;
 }
-button{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFA800;
-    padding: 8px 35px;
-    border: none;
-    border-radius: 100px;
-    font-size: 1.25555em;
-    color: black;
-    font-weight: 100;
-    display: block;
-    margin: 38px 0 0 0;
-    font-weight: 800;
+botão{
+    família de fontes: Arial, Helvetica, sans-serif;
+    cor de fundo: #FFA800;
+    preenchimento: 8px 35px;
+    borda: nenhum;
+    raio da borda: 100px;
+    tamanho da fonte: 1,25555em;
+    cor preta;
+    peso da fonte: 100;
+    exibição: bloco;
+    margem: 38px 0 0 0;
+    peso da fonte: 800;
 }
-.bold-yellow{
-    font-weight: 700;
-    color: #FFA800;
+.negrito-amarelo{
+    peso da fonte: 700;
+    cor: #FFA800;
 }
 .alin-header-itens{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    posição: relativa;
+    exibição: flexível;
+    justificar-conteúdo: espaço-entre;
+    itens de alinhamento: centro;
 }
 .img-mauro{
-    position: relative;
-    width: 32%;
-    animation: animmauro2 1s ease-out;
+    posição: relativa;
+    largura: 32%;
+    animação: animmauro2 1s descompressão;
 }
 @keyframes animmauro2 {
     0%{
-        opacity: 0;
+        opacidade: 0;
     }
     10%{
-        opacity: 0;
+        opacidade: 0;
     }
     100%{
-        opacity: 1;
+        opacidade: 1;
     }
 }
 .img-mauro img{
-    width: 100%;
-    position: relative;
-    display: block;
-    z-index: 1;
+    largura: 100%;
+    posição: relativa;
+    exibição: bloco;
+    índice z: 1;
 }
 
 .title-jobs{
-    background: rgb(242,101,0);
-    background: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
-    font-family: title-font;
-    text-align: center;
+    plano de fundo: rgb(242,101,0);
+    plano de fundo: linear-gradient(90deg, rgba(242,101,0,1) 0%, rgba(255,168,0,1) 51%, rgba(242,101,0,1) 100%);
+    font-family: título-fonte;
+    alinhamento de texto: centro;
 
-    padding: 20px 0;
+    preenchimento: 20px 0;
 }.title-jobs h2{
-    font-size: 2.1rem;
+    tamanho da fonte: 2,1 rem;
 }
 .body-cont{
-    width: 100%;
-    padding: 60px 0;
+    largura: 100%;
+    preenchimento: 60px 0;
 }
 .title-articles{
-    font-family: title-font;
-    font-size: 1.9rem;
-    margin-bottom: 20px;
+    font-family: título-fonte;
+    tamanho da fonte: 1,9 rem;
+    margem inferior: 20px;
 }
-article{
-    color: rgb(25, 25, 25);
-    width: 910px;
-    margin: 0 auto;
+artigo{
+    cor: rgb(25, 25, 25);
+    largura: 910px;
+    margem: 0 automático;
 }
 .aling-article-cont{
-    position: relative;
-    display: flex;
+    posição: relativa;
+    exibição: flexível;
 }
 .aling-article-cont img{
-    width: 360px;
-    margin-left: 10px;
-    transition: scale .3s;
+    largura: 360px;
+    margem esquerda: 10px;
+    transição: escala 0,3s;
     -webkit-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 40px -23px rgba(0,0,0,0.5);
@@ -181,7 +186,7 @@ article{
     background-color: #ececec;
 }
 .largura-total{
-    background-image: url(imgs/capa-section-lista.png);
+    background-image: url(imgs/capa-section-lista-02.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -246,73 +251,73 @@ article{
     border: none;
 }
 .cxsobre img:hover{
-    scale: 1.1;
+    escala: 1,1;
 }
 .cx-alin-feedback{
-    position: relative;
-    display: flex;
-    margin-top: 40px;
-    justify-content: space-between;   
+    posição: relativa;
+    exibição: flexível;
+    margem superior: 40px;
+    justificar-conteúdo: espaço-entre;   
 }
 .card-feedback{
-position: relative;
-display: block;
-width: 272px;
+posição: relativa;
+exibição: bloco;
+largura: 272px;
 }
 .card-feedback img{
-    width: 38px;
-    position: relative;
-    display: block;
-    margin: 0 auto;
+    largura: 38px;
+    posição: relativa;
+    exibição: bloco;
+    margem: 0 automático;
 }
 .card-feedback p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: .07rem;
-    margin: 40px auto 28px auto;
+    alinhamento de texto: centro;
+    família de fontes: Arial, Helvetica, sans-serif;
+    espaçamento entre letras: 0,07rem;
+    margem: 40px automático 28px automático;
 }
 .card-feedback h4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: #FFA800;
-    position: relative;
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
+    família de fontes: Arial, Helvetica, sans-serif;
+    peso da fonte: 700;
+    cor: #FFA800;
+    posição: relativa;
+    exibição: bloco;
+    largura: 70%;
+    margem: 0 automático;
+    alinhamento de texto: centro;
 }
-footer{
-    background-color: black;
-    color: white;
-    padding: 20px 0;
+rodapé{
+    cor de fundo: preto;
+    cor branca;
+    preenchimento: 20px 0;
 }
-footer h3{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: .8rem;
-    font-weight: 100;
-    margin-bottom: 5px;
+rodapé h3{
+    família de fontes: Arial, Helvetica, sans-serif;
+    alinhamento de texto: centro;
+    tamanho da fonte: .8rem;
+    peso da fonte: 100;
+    margem inferior: 5px;
 }
-footer h4{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: .7rem;
-    cursor: pointer;
+rodapé h4{
+    família de fontes: Arial, Helvetica, sans-serif;
+    alinhamento de texto: centro;
+    tamanho da fonte: .7rem;
+    cursor: ponteiro;
 }
-footer h4:hover{
-    color: #FFA800;
+rodapé h4:passar o mouse{
+    cor: #FFA800;
 }
 .but-feedback{
-    position: relative;
-    display: block;
-    margin: 50px auto 0 auto;
+    posição: relativa;
+    exibição: bloco;
+    margem: 50px auto 0 auto;
 }
 .listarticle{
-    font-size: 1.1rem;
-    line-height: 2.2rem;
+    tamanho da fonte: 1,1 rem;
+    altura da linha: 2,2 rem;
 }
 .styiconlist{
-    color: #FFA800;
+    cor: #FFA800;
     font-weight:bolder;
     font-size: 1.8rem;
 }
@@ -647,11 +652,6 @@ button{
     }
     .horiz-aling h2{
         font-family: title-font;
-        font-display: auto;
-        font-display: block;
-        font-display: swap;
-        font-display: fallback;
-        font-display: optional;
         text-align: center;
         font-size: 2rem;
         position: relative;
