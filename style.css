@@ -647,6 +647,11 @@ button{
     }
     .horiz-aling h2{
         font-family: title-font;
+        font-display: auto;
+        font-display: block;
+        font-display: swap;
+        font-display: fallback;
+        font-display: optional;
         text-align: center;
         font-size: 2rem;
         position: relative;
